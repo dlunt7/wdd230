@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+#content {max-width:960px;margin:0 auto;}
+
+body {
+    background-color:white;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: white;
+  align-items: center;
+}
+
+.profile-line {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px;
+    border-radius: 20px;
+    padding: 1em;
+    background-color: #2e10b4;
+    border: 1px solid #ccc;
+    box-shadow: 5px 10px 10px #464342
+}
+
+
+.profile-line img {
+    
+    grid-column: 1/2;
+    grid-row: 1;
+    border-radius: 20px 0 0 20px;
+    border: 1px solid #ccc;
+    box-shadow: 5px 10px 10px #464342
+}
+
+.name-line {
+    padding: 1em;
+    grid-column: 2/4;
+    vertical-align: middle;
+    color: white;
+    text-shadow: 8px 8px #464342;
+}
+
+.assignment-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 50px;
+    padding: 1em;
+}
+
+
+main {
+  background-color:white;
+}
+
+footer {
+    border-radius: 20px;
+    padding: 1em;
+    background-color: #2e10b4;
+    border: 1px solid #ccc;
+    box-shadow: 5px 10px 10px #464342;
+    text-align: center;
+}
+
+
+h1 {
+  text-align: center;
+  vertical-align: middle;
+  font-size:3.5em;
+  font-family:'Merriweather',Georgia,Sans-Serif;
+  padding:.5em;
+}
+
+h2 {
+    text-align: center;
+    vertical-align: middle;
+    font-size:2.5em;
+    font-family:'Merriweather',Georgia,Sans-Serif;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-size:1.5em;
+    font-family:'Arimo',Georgia,sans-serif;
+}
+
+hr {
+  width: 100%;
+  height: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  font-family: 'Arimo',Georgia,sans-serif;
+  line-height:30px;
+  text-align: center;
+  color: yellow;
+}
+
+
+  
+li {
+    margin-left: 3em;
+    color: black;
+    font-size:1.5em;
+    font-family:'Merriweather',Georgia,Sans-Serif;
+}
+
+  
+b {
+    padding-right: 1em;
+}
+
+a {
+    padding-left: 1em;
+}
+
+
+
+
+
+@media screen and (max-width: 550px) {
+    .home-grid, nav ul, footer {
+    display: block;
+    }
+}
