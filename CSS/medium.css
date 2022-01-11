@@ -1,5 +1,5 @@
 @media (min-width: 32.5em) {
-    h2 {
+    h2, hr {
         color: green;
     }
     h3, p {
