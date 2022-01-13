@@ -13,5 +13,23 @@ header {
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto; 
+}
+
+.amazon {
+    grid-column: 1/2;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: .5em 1em .5em 1em; 
+}
+
+.amazon-left-img {
+    float: left;
+    padding: 1em;
+}
+
+p {
+    font-family: 'Arimo',Georgia,sans-serif;
+    line-height:20px;
 }
