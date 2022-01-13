@@ -12,18 +12,33 @@ header {
 }
   
 .title-line {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      margin: 10px;
-      max-width: 100%;
-      border-radius: 20px;
-      padding: 1em;
-      background-color: #2e10b4;
-      border: 1px solid #ccc;
-      box-shadow: 5px 10px 10px #464342
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10px;
+    border-radius: 20px;
+    align-items: center;
+    padding: 1em;
+    background-color: #2e10b4;
+    border: 1px solid #ccc;
+    box-shadow: 5px 10px 10px #464342
 }
 
-  
+.title-name {
+    padding: 1em;
+    grid-column: 2/4;
+    max-width: 100%;
+    vertical-align: middle;
+    color: white;
+    text-shadow: 8px 8px #464342;
+}
+
+.name-line {
+    padding: 1em;
+    grid-column: 2/4;
+    max-width: 100%;
+    vertical-align: middle;
+    color: white;
+}
 
 main {
     display: grid;
