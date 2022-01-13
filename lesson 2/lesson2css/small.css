@@ -1,15 +1,28 @@
+
+#content {max-width:960px;margin:0 auto;}
+
+body {
+    background-color:white;
+}
+
 header {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: white;
+  align-items: center;
+}
+
+.profile-line {
     display: grid;
-    grid-template-columns: 1fr;
-    color: white;
-    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
     margin: 50px;
     border-radius: 20px;
     padding: 1em;
     background-color: #2e10b4;
     border: 1px solid #ccc;
     box-shadow: 5px 10px 10px #464342
-  }
+}
+  
 
 main {
     display: grid;
