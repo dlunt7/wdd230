@@ -16,7 +16,7 @@ header {
 .profile-line {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 50px;
+    margin: 10px;
     border-radius: 20px;
     padding: 1em;
     background-color: #2e10b4;
@@ -46,7 +46,7 @@ header {
 .assignment-grid {
     display: grid;
     grid-template-columns: 1fr;
-    margin: 50px;
+    margin: 10px;
     padding: 1em;
 }
 
