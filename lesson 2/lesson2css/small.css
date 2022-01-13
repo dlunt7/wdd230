@@ -6,15 +6,10 @@ body {
 }
 
 header {
-  display: grid;
-  grid-template-columns: 1fr;
-  background-color: white;
-  align-items: center;
-}
-
-.profile-line {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: auto;
+    background-color: white;
+    align-items: center;
     margin: 10px;
     border-radius: 20px;
     padding: 1em;
@@ -30,38 +25,14 @@ main {
     grid-template-rows: auto; 
 }
 
-.amazon {
-    grid-column: 1/2;
+section {
+    grid-column: span 2;
     margin-left: 1em;
     margin-right: 1em;
     padding: .5em 1em .5em 1em; 
 }
 
-.amazon-left-img {
-    float: left;
-    padding: 1em;
-}
-
-.disney {
-    grid-column: 2/3;
-    margin-left: 1em;
-    margin-right: 1em;
-    padding: .5em 1em .5em 1em; 
-}
-
-.disney-left-img {
-    float: left;
-    padding: 1em;
-}
-
-.trader-joes {
-    grid-column: 3/4;
-    margin-left: 1em;
-    margin-right: 1em;
-    padding: .5em 1em .5em 1em; 
-}
-
-.trader-joes-left-img {
+image {
     float: left;
     padding: 1em;
 }
