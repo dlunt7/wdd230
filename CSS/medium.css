@@ -1,6 +1,7 @@
 @media (min-width: 32.5em) {
     h2, hr {
         color: green;
+        background-color: green;
     }
     h3, p {
         color: yellow;
