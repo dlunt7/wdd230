@@ -16,7 +16,7 @@ header {
 
 .profile-line {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     margin: 50px;
     border-radius: 20px;
     padding: 1em;
@@ -38,6 +38,7 @@ header {
 .name-line {
     padding: 1em;
     grid-column: 2/4;
+    max-width: 100%;
     vertical-align: middle;
     color: white;
     text-shadow: 8px 8px #464342;
