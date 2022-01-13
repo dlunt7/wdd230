@@ -29,6 +29,30 @@ main {
     padding: 1em;
 }
 
+.disney {
+    grid-column: 2/3;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: .5em 1em .5em 1em; 
+}
+
+.disney-left-img {
+    float: left;
+    padding: 1em;
+}
+
+.trader-joes {
+    grid-column: 3/4;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: .5em 1em .5em 1em; 
+}
+
+.trader-joes-left-img {
+    float: left;
+    padding: 1em;
+}
+
 p {
     font-family: 'Arimo',Georgia,sans-serif;
     line-height:20px;
