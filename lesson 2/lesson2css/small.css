@@ -25,8 +25,22 @@ main {
     grid-template-rows: auto; 
 }
 
-main section {
-    grid-column: 1;
+.amazon {
+    grid-column: 1/2;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: .5em 1em .5em 1em; 
+}
+
+.disney {
+    grid-column: 2/3;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: .5em 1em .5em 1em; 
+}
+
+.trader {
+    grid-column: 3/4;
     margin-left: 1em;
     margin-right: 1em;
     padding: .5em 1em .5em 1em; 
