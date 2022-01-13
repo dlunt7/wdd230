@@ -7,10 +7,11 @@ header {
     grid-template-columns: auto;
 }
 
-header section {
+.title {
     background-color: white;
     align-items: center;
     margin: 10px;
+    max-width: 100%;
     border-radius: 20px;
     padding: 1em;
     background-color: #2e10b4;
